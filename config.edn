@@ -2,6 +2,9 @@
 {:customREPLCommandSnippets
  [{:name "Integrant - dev"
    :snippet (user/dev)}
+  
+  {:name "Integrant - prod"
+   :snippet (user/prod)}
 
   {:name "Add Libs Enclosing"
    :key "a"
