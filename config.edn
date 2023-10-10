@@ -6,6 +6,12 @@
   {:name "Integrant - prod"
    :snippet (user/prod)}
 
+  {:name "Tap top-level-form "
+   :snippet (tap> $top-level-form)}
+
+  {:name "Tap current form"
+   :snippet (tap> $current-form)}
+
   {:name "Add Libs Enclosing"
    :key "a"
    :snippet (tap>
